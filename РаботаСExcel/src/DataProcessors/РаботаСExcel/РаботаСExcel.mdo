@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8765f87-0f8b-4885-9075-80c63d546463">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8765f87-0f8b-4885-9075-80c63d546463">
   <producedTypes>
     <objectType typeId="d31394dc-5109-4d71-82c0-430259b2ea14" valueTypeId="26dec212-daf5-4bd7-a047-6196a2296b06"/>
     <managerType typeId="ed938d0f-76de-4ce6-bd72-0ff9b7a97bd8" valueTypeId="c8665bea-d7ca-4b8f-9439-cfb7d28d4fa9"/>
@@ -10,4 +10,77 @@
     <value>Работа с excel</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСExcel.Form.Форма</defaultForm>
+  <tabularSections uuid="92c65295-45e7-4549-9061-40273c50c963">
+    <producedTypes>
+      <objectType typeId="7919ecb1-0007-450c-8228-6060600395b4" valueTypeId="cf6d158d-7c11-4e32-b39c-e249a0d648d7"/>
+      <rowType typeId="e7abacb5-441a-4d2b-b023-e050f8870d7a" valueTypeId="01ae4cfc-1f02-4bf5-b460-28a7330af77d"/>
+    </producedTypes>
+    <name>Таблица1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица1</value>
+    </synonym>
+    <attributes uuid="e79b0ddd-b6d3-4ffb-93ff-e199fc35b21d">
+      <name>КолонкаКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка код</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2ec2ee1e-6c48-4c02-9ac5-3c2da1d4414b">
+      <name>Колонка2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="63ca4556-9816-4e13-91fb-f8bc21477653">
+      <name>Колонка3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fd9ea5b7-0068-4580-a476-e9e0dcec9a3d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
