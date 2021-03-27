@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdcab8f7-3d46-4966-8622-9973c1a18c8f">
+  <producedTypes>
+    <managerType typeId="f3e0df5b-ea4c-4486-9ecc-efd126cc88d0" valueTypeId="da2b7d8d-0390-456b-9277-b237a18499a2"/>
+    <tablesManagerType typeId="3bbaa8bd-ccd5-476c-92ac-b89bcbd5343e" valueTypeId="7ae00e01-dc52-4ce1-bef0-384c29c26d1c"/>
+    <cubesManagerType typeId="6b5371bb-1292-49b9-b651-05e2eee8c294" valueTypeId="a92f0617-9f8c-4cfa-97e6-2f5befdfeb1d"/>
+  </producedTypes>
+  <name>Excel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Excel</value>
+  </synonym>
+  <tables>ExternalDataSource.Excel.Table.Таблица1</tables>
+</mdclass:ExternalDataSource>

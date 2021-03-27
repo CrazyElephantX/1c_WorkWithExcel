@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b93f01a2-17f6-4fb0-b29c-3d0a7ac0ee2d">
+  <name>РаботаСExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с excel</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="645cf6a6-eaaa-4aa0-a706-a7912a6f3d1b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="14386675-2bc1-4f77-9770-ef9e632de613"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c575807b-2c57-47c4-a043-4b294b36d906"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c2221807-2436-4196-b3d2-8bb51b366ccc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c3c7813d-23c9-4b75-ae77-2295c146b728"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ee57f4fd-467c-444a-8e50-3cf6bdf83f0c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="18deb70a-143e-48f3-bea3-8fc6519e0eaf"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="0afdc832-410e-45e9-822a-93430551f1d3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.РаботаСExcel</subsystems>
+  <dataProcessors>DataProcessor.РаботаСExcel</dataProcessors>
+  <externalDataSources>ExternalDataSource.Excel</externalDataSources>
+</mdclass:Configuration>

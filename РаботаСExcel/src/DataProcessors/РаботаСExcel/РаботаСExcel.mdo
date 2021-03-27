@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8765f87-0f8b-4885-9075-80c63d546463">
+  <producedTypes>
+    <objectType typeId="d31394dc-5109-4d71-82c0-430259b2ea14" valueTypeId="26dec212-daf5-4bd7-a047-6196a2296b06"/>
+    <managerType typeId="ed938d0f-76de-4ce6-bd72-0ff9b7a97bd8" valueTypeId="c8665bea-d7ca-4b8f-9439-cfb7d28d4fa9"/>
+  </producedTypes>
+  <name>РаботаСExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с excel</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

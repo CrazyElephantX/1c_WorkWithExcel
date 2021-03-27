@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db4c5ce8-c895-4e55-910a-62989ba5bbdc">
+  <name>РаботаСExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с excel</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РаботаСExcel</content>
+</mdclass:Subsystem>

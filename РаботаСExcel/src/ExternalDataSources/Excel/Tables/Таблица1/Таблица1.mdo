@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63b3901a-cf0c-4df8-9744-291471b3d2ea">
+  <producedTypes>
+    <refType typeId="dd1175c9-3d5d-4bc3-893f-e76f4ecbf5ac" valueTypeId="4c06cc40-c145-41ba-9473-a3da8f3443f0"/>
+    <listType typeId="65dc4042-80f3-447c-b7eb-1e52ab43f9a1" valueTypeId="d4dbff9b-6195-4245-bbd1-d1d779fd0cd3"/>
+    <objectType typeId="f1aa7744-c230-4014-92e7-2bc4d3554720" valueTypeId="48930da1-fd80-4d47-bf67-0832e2c19b5b"/>
+    <managerType typeId="4f82b232-1be7-4f94-bec9-2a93b79b7a02" valueTypeId="79ee0233-f2fe-4e5d-9b1e-c4f9bd43363d"/>
+    <recordManagerType typeId="2b2e1b94-6d87-4586-ad8d-f55559e64fa8" valueTypeId="4fcab957-c121-4a2f-b53c-e5fb744f902b"/>
+    <recordSetType typeId="aca57ac8-8bef-4a1a-84e3-6d2a8e4954b3" valueTypeId="c33a9657-4bcd-43f5-a00f-08eaf995c857"/>
+    <recordType typeId="459c7eb4-43ba-4760-94fa-1e42ea011ecf" valueTypeId="ce8512a9-7270-4aa2-a6ed-b0a3ce67a47a"/>
+    <recordKeyType typeId="90270627-e655-41d0-a5f6-b0c3c418271d" valueTypeId="4d6651d8-f2f9-4082-b99e-823e3b3351c2"/>
+  </producedTypes>
+  <name>Таблица1</name>
+  <parentDataSource>ExternalDataSource.Excel</parentDataSource>
+  <nameInDataSource>Sheet1$</nameInDataSource>
+  <keyFields>ExternalDataSource.Excel.Table.Таблица1.Field.КолонкаКод</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Excel.Table.Таблица1.Field.КолонкаКод</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="b65c33a0-843a-4ff6-a02c-f279e4df43dc">
+    <name>КолонкаКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Код</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="6123a0dd-c4c7-458b-9afe-2ae6ae28d0c4">
+    <name>Колонка2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Колонка2</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="6394d411-4018-4e7a-a896-21e3a0df584a">
+    <name>Колонка3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Колонка3</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>
